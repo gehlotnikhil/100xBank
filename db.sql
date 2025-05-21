@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS Users (
   email VARCHAR(100) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL,
   full_name VARCHAR(100),
-  role ENUM('customer', 'admin') DEFAULT 'customer',
+  role ENUM('customer','banker') DEFAULT 'customer',
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
