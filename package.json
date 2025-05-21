@@ -1,0 +1,17 @@
+{
+  "name": "banking-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "both": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "mysql2": "^3.14.1"
+  }
+}
